@@ -10,4 +10,3 @@ pycodestyle==2.10.0
 tomli==2.0.1
 Werkzeug==2.2.2
 zipp==3.11.0
-vercel-wsgi==0.8.1
