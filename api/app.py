@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-from vercel_wsgi import handle_request
 
 app = Flask(__name__, static_folder='static', static_url_path='')
 
