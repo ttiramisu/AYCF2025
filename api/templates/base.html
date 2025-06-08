@@ -34,61 +34,66 @@
       </div>
     </div>
   </nav>
+
+  <main>
   {% block content %}
 
   {% endblock %}
+  </main>
 
-  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <div class="row mt-3">
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>AYCF 2025
-            </h6>
-            <p>
-              footer content can come here. this is some extra place for people to put text
-            </p>
-          </div>
+  <container>
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>AYCF 2025
+              </h6>
+              <p>
+                footer content can come here. this is some extra place for people to put text
+              </p>
+            </div>
 
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              链接
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">some link comes here</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">some link comes here</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">some links come here</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">some links come here</a>
-            </p>
-          </div>
-          <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                链接
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">some link comes here</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">some link comes here</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">some links come here</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">some links come here</a>
+              </p>
+            </div>
+            <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              aycf email comes here
-            </p>
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                aycf email comes here
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2025 Copyright:
-      <a class="text-reset fw-bold" href="https://hci.edu.sg">HCI</a>
-    </div>
-  </footer>
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2025 Copyright:
+        <a class="text-reset fw-bold" href="https://hci.edu.sg">HCI</a>
+      </div>
+    </footer>
+  </container>
 
 
   <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}" async></script>
